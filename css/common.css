@@ -121,6 +121,10 @@ li>h2 {
   font-size: 16px;
 }
 
+.change-color:hover{
+  background-color: #6c8cff;
+}
+
 #controls{
   display: flex;
   flex-direction: row;
