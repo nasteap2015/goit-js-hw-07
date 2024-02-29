@@ -7,8 +7,3 @@ categoryList.forEach(function (category) {
   const elementsList = category.querySelectorAll("li");
   console.log(`Elements: ${elementsList.length}`);
 });
-
-const categoryItem = document.querySelectorAll(".item > ul > li");
-categoryItem.forEach(function (item) {
-  item.classList.add("category-value");
-});
