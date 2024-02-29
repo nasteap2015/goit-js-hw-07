@@ -22,6 +22,7 @@ function createBoxes(event) {
       tagretContainer.append(createdContainer);
     }
   }
+  inputArea.value = "";
 }
 
 destroyBtn.addEventListener("click", destroyBoxes);
